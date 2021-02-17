@@ -1,0 +1,215 @@
+* {
+   margin: 0;
+   padding: 0px;
+    box-sizing: content-box;    
+}
+ 
+ body{
+     display: flexbox;
+     justify-content: center; 
+     align-items: center;
+     min-height: 100vh;
+
+}
+
+a {
+    text-decoration: none;
+} 
+
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.margen-interno{
+    padding: 10px 50px;
+
+}
+/*header*/
+.header{
+    background: #000;
+    display: flex;
+    flex-flow: column nowrap;
+    
+
+}
+
+.menu{
+    background: black;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    align-items: center;
+    
+}
+
+.logo{
+    flex: 1 1 auto;
+    font-size: 30px;
+    
+}
+    .logo a {
+        color: #fff;
+
+    }
+
+    .logo a:hover{
+        color: blueviolet;
+
+    } 
+
+    
+
+
+.nave{
+    
+    flex: 5 1 auto;
+    
+}
+     .nave a{
+        color: #fff;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        letter-spacing: 2px;
+
+    }
+    .nave a:hover{
+        background-color: rgb(0, 255, 0);
+        color: blue;
+    }
+
+
+.sociais{
+    flex: 1 1 auto;
+
+}
+    .sociais a{
+        color: #fff;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        letter-spacing: 2px;
+    }
+    .sociais a:hover{
+        color: blue;
+        background-color: rgb(0, 255, 0);
+    }
+   
+    
+ 
+.img-principal {
+    background: url(img/carro11.jpg);
+    background-position: conteiner;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 950px;
+    justify-content: center;
+    
+}
+    
+ 
+ /*section*/
+
+.section {
+    background: #FFFFFF;
+    display: flex;
+    
+    
+    
+}
+
+.articulos{
+    /* background: #ffffff; */
+    /*flex: 4 1 auto; */
+   display: flex; 
+    /*flex-flow: row nowrap; */
+   /* width: 100%; */
+   
+   
+}
+
+.articulos .artitle{
+    margin: 20px;
+   display: flexbox;
+}
+.artitle  h2 {
+    margin: 15px 0;
+    
+}
+
+
+
+/*section2*/
+
+.section-2{
+    background: #37201A;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: nowrap;
+    min-height: 100hv;
+}
+
+
+
+.container{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: nowrap;
+    /* color: #000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 50px ;
+    padding: 30px 15px; */
+    
+}
+
+.container .card{
+    position: relative;
+    max-width: 450px;
+    /* background:#fff; */
+    margin:10px;
+    padding: 15px;
+    
+}
+
+.container .card .Imgbx{
+    max-width: 150px;
+    flex: 0 0 150px;
+    
+
+}
+
+.container .card .Imgbx img{
+    max-width: 100%;
+    
+}
+
+
+
+.articulos-3{
+    background:#251611
+}
+
+.video-2{
+    background:#251611 ;
+} */
+
+
+
+.footer {
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.pie{
+    background: chocolate;
+    width: 300px;
+} */
